@@ -1,0 +1,40 @@
+
+
+
+body{
+	background-color:  rgb(50,50,50);
+}
+
+
+
+#ProjectsList{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	background-color: transparent;
+	text-align: center;
+	grid-gap: 5px;
+	grid-auto-rows: 400%;
+}
+
+
+
+#Projects{
+	display: inline-grid;
+	background-color: rgb(210,210,210);
+	border: 3px solid black;
+	border-radius: 5px;
+	font-size: 150%;
+	transition: background 1s;
+	cursor: pointer;
+}
+
+
+
+
+#Projects:hover{
+	background-color: rgb(180,180,180);
+}
+
+
+
+
